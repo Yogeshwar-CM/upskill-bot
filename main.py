@@ -45,11 +45,16 @@ if __name__ == "__main__":
         prompts = []
 
     email_body = "<h1>Your Daily Upskilling Briefing</h1>"
+# REPLACE IT WITH THIS BLOCK
     for prompt_line in prompts:
         topic, prompt = prompt_line.split(':', 1)
         print(f"Processing topic: {topic.strip()}...")
         ai_response = get_ai_response(prompt.strip())
-        email_body += f"<h2>{topic.strip()}</h2><p>{ai_response.replace('\n', '<br>')}</p><hr>"
+
+        # First, format the response string
+        formatted_response = ai_response.replace('\n', '<br>')
+        # Then, add it to the email body
+        email_body += f"<h2>{topic.strip()}</h2><p>{formatted_response}</p><hr>"
     if prompts:
         send_email(email_body)
     else:
