@@ -1,3 +1,5 @@
-AI News:Summarize the single most important news story in AI from the last 24 hours.
-Leadership Tip:Generate a single, actionable leadership tip based on the principles of 'Extreme Ownership'.
-Python Programming:Provide a code example and explanation for an interesting use of Python's `itertools` library.
+Geopolitics:Summarize the single most important Geopolitics story in AI from the last 24 hours.
+CharlieKirk: Updates on charliekirks assasination and where we are right now (5 points max)
+Leadership: How to motivate lazy and uninterested team (actionable items and references from influencers, historic figures / hindu mythology)
+CRON: The power i can achieve with cron, fun things i can do lear etc. with Github Actions and python scripts (Ideas and flow simple and direct enough)
+FUNTT: If i get a time travel machine and travel back in time i need you to give me the best things i shld buy to get ROI it can be anything from stocks to crypto to gambing to a very specific competition etc.give 5 points fro the following, if i went back in time a day, a week, a month, a year, 10 years. Tell me exactly specifically to the point what i must do and how ill benefit from it
